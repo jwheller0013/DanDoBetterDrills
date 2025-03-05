@@ -69,7 +69,7 @@ public class StringUtilities {
      */
     public static Character getMiddleCharacter(String inputValue){
 
-        return inputValue.charAt(inputValue.length()/2);
+        return inputValue.charAt((inputValue.length()-1)/2);
     }
 
     /**
