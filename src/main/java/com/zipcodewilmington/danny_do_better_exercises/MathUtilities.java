@@ -173,7 +173,8 @@ public class MathUtilities {
      * @return division of `dividend` by `divisor
      */
     public Float divide(float dividend, float divisor) {
-        return null;
+
+        return (float) (dividend/divisor);
     }
 
     /**
@@ -182,7 +183,8 @@ public class MathUtilities {
      * @return division of `dividend` by `divisor
      */
     public Double divide(double dividend, double divisor) {
-        return null;
+
+        return (double) (dividend/divisor);
     }
 
 
