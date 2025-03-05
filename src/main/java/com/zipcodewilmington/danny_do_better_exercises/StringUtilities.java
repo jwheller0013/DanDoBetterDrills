@@ -77,7 +77,8 @@ public class StringUtilities {
      * @return the first sequence of characters
      */
     public static String getFirstWord(String spaceDelimitedString){
-        return null;
+        String [] parts = spaceDelimitedString.split(" ");
+        return parts[0];
     }
 
     /**
