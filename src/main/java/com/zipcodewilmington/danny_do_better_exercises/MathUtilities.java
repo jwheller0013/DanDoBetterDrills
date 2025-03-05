@@ -22,7 +22,7 @@ public class MathUtilities {
      */
     public Long add(long baseValue, long difference) {
 
-        return baseValue + difference;
+        return (long) (baseValue + difference);
     }
 
     /**
@@ -32,8 +32,8 @@ public class MathUtilities {
      */
     public Short add(short baseValue, short difference) {
 
-//        return (baseValue + difference);
-        return null;
+        return (short) (baseValue + difference);
+
 
     }
 
@@ -82,7 +82,7 @@ public class MathUtilities {
      */
     public Long subtract(long baseValue, long difference) {
 
-        return baseValue - difference;
+        return (long) (baseValue - difference);
     }
 
     /**
@@ -91,8 +91,8 @@ public class MathUtilities {
      * @return difference between `baseValue` and `difference`
      */
     public Short subtract(short baseValue, short difference) {
-        return null;
-    }
+
+        return (short) (baseValue - difference);    }
 
     /**
      * @param baseValue  starting value
@@ -139,7 +139,8 @@ public class MathUtilities {
      */
     public Long divide(long dividend, long divisor) {
 
-        return dividend/divisor;    }
+        return (long) (dividend/divisor);
+    }
 
     /**
      * @param dividend value to be divided
@@ -147,8 +148,8 @@ public class MathUtilities {
      * @return division of `dividend` by `divisor
      */
     public Short divide(short dividend, short divisor) {
-        return null;
-    }
+
+        return (short) (dividend/divisor);     }
 
     /**
      * @param dividend value to be divided
@@ -195,7 +196,7 @@ public class MathUtilities {
      */
     public Long multiply(long multiplicand, long multiplier) {
 
-        return multiplicand * multiplier;
+        return (long) (multiplicand * multiplier);
     }
 
     /**
@@ -204,7 +205,8 @@ public class MathUtilities {
      * @return product of `multiplicand` by `multiplier`
      */
     public Short multiply(short multiplicand, short multiplier) {
-        return null;
+
+        return (short) (multiplicand * multiplier);
     }
     /**
      * @param multiplicand value to be multiplied
