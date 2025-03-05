@@ -15,6 +15,7 @@ public class TestPredicateUtilities {
         // : Given
         // : When
         // : Then
+
         assertTrue(predicateUtilities.returnTrue());
     }
 
